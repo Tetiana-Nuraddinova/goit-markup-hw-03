@@ -41,11 +41,7 @@ padding-left: 15px;
 padding-right: 15px;
 margin: 0 auto;
 }
-.page-container {
-    min-height: 100vh;
-    display: flex;
-    flex-direction: column;
-}
+
 main {
     flex-grow: 1;
 }
@@ -134,9 +130,11 @@ color: #2e2f42;
         text-align: center;
         color: #fff;
         text-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
-        padding-bottom: 48px;
+        margin-bottom: 48px;
+        margin-left: 0;
+        margin-right: 0;
         max-width: 496px;
-        margin: 0 auto;
+        
 }
 .text-button {
     font-family: "Roboto", sans-serif;
